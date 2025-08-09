@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENHANCED FORM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Web Development Skills Assessment</h1>
+
+    <h2>Section 1: Content Organization</h2>
+    <p>This section demonstrates the use of lists, tables, and media.</p>
+    <P>It also shows how to build structured HTML5 forms that are both usable and visually intuitive.</P>
+    <p>It uses inbuilt validation tecniques to minimize  incorrect data input without relying on JavaScript.</p>
+    <p>It also show the application of various HTML5 form attributes to improve user interaction.</p>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML5 is the latest version of HTML.</li>
+        <li>It includes new elements for better structure and semantics.</li>
+        <li>It supports multimedia and form enhancements.</li>
+        <li>It enhaces user friendliness.</li>
+        <li>It enhances easy user interface for navigation.</li>
+    </ol>
+
+    <h3>Abilities</h3>
+    <ul>
+        <li>Accessibility</li>
+        <li>Responsive Design</li>
+        <li>SEO Optimization</li>
+        <li>Content Clarity<li>
+    </ul>
+
+    <h3>Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Benefit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Semantic Elements</td>
+                <td>Improves accessibility and SEO</td>
+            </tr>
+            <tr>
+                <td>Form Validation</td>
+                <td>Reduces errors without JavaScript</td>
+            </tr>
+            <tr>
+                <td>Responsive Design</td>
+                <td>Adapts to different screen sizes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Media</h3>
+    <p>Audio Example:</p>
+    <audio controls>
+        <source src="audio/sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p>Image Example:</p>
+    <img src="IMAGE/KING LBJ.jpg" alt="Sample Image" width="300">
+
+    <h2>Section 2: HTML5 Form</h2>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="WERE FRANKLIN" required>
+
+            <="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Dapperfrank843@gmail.com" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="0701981758" required>
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="interests">Interests (multiple selection):</label>
+            <select id="interests" name="interests" multiple required>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="c">C</option
+                <option value="c++">C++</option>
+                
